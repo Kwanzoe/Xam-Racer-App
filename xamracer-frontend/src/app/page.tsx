@@ -1,12 +1,11 @@
-"use client";
 import Track from "@/components/Track";
 import QuestionBox from "@/components/QuestionBox";
 
-export default function Home() {
+export default function GamePage() {
   return (
-    <main className="flex flex-col items-center justify-center min-h-screen p-8 bg-gray-50">
+    <div className="flex flex-col items-center">
       <Track />
       <QuestionBox />
-    </main>
+    </div>
   );
 }
