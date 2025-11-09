@@ -1,19 +1,15 @@
-import type { Metadata } from "next";
-import "./globals.css";
+import './globals.css';
+import type { ReactNode } from 'react';
 
-export const metadata: Metadata = {
-  title: "Xam Racer",
-  description: "A multiplayer racing experience.",
+export const metadata = {
+  title: 'Xam Racer',
+  description: 'Answer fast. Race faster.',
 };
 
-export default function RootLayout({
-  children,
-}: {
-  children: React.ReactNode;
-}) {
+export default function RootLayout({ children }: { children: ReactNode }) {
   return (
     <html lang="en">
-      <body className="antialiased">{children}</body>
+      <body className="bg-white text-gray-900">{children}</body>
     </html>
   );
 }

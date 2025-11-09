@@ -1,0 +1,10 @@
+{
+  "sessionId": "demo-1",
+  "players": [
+    { "id": "you-1", "name": "You", "lane": 0, "position": 0, "isBot": false },
+    { "id": "bot-a", "name": "Quiztron", "lane": 1, "position": 0, "isBot": true },
+    { "id": "bot-b", "name": "ByteBeast", "lane": 2, "position": 0, "isBot": true },
+    { "id": "bot-c", "name": "MC Mark", "lane": 3, "position": 0, "isBot": true }
+  ],
+  "totalBlocks": 6
+}
